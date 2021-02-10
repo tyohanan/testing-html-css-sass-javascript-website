@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .logo {
+  }
+
+  &-1 {
+  }
+
+  li {
+    padding: 20px 20px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

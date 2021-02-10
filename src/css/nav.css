@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  padding: 20px 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=nav.css.map */
