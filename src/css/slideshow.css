@@ -1,0 +1,59 @@
+.slideshow {
+  background-color: black;
+}
+
+.slideshow-slider {
+  position: relative;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide-number {
+  text-align: left;
+  width: 100%;
+  font-size: 5em;
+  top: 0;
+  position: absolute;
+  color: white;
+}
+
+.slide-image {
+  width: 1100px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.slide-text {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.navslider {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+}
+
+.navslider-prev, .navslider-next {
+  color: white;
+  background: black;
+  cursor: pointer;
+  padding: 20px 20px;
+}
+
+.navslider-prev:hover, .navslider-next:hover {
+  color: black;
+  background: white;
+}
+/*# sourceMappingURL=slideshow.css.map */

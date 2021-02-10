@@ -6,6 +6,7 @@
   ul {
     list-style: none;
     display: flex;
+    margin: 20px 20px;
   }
 
   .logo {
@@ -21,5 +22,10 @@
   a {
     color: white;
     text-decoration: none;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    color: rgb(179, 177, 177);
   }
 }

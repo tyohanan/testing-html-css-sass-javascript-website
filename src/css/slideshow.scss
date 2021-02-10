@@ -1,0 +1,60 @@
+.slideshow {
+  background-color: black;
+
+  &-slider {
+    position: relative;
+  }
+}
+
+.slide {
+  position: relative;
+
+  &-number {
+    text-align: left;
+    width: 100%;
+    font-size: 5em;
+    top: 0;
+    position: absolute;
+    color: white;
+  }
+
+  &-image {
+    width: 1100px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  &-text {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Next & previous buttons */
+.navslider {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+
+  &-prev,
+  &-next {
+    color: white;
+    background: black;
+    cursor: pointer;
+    padding: 20px 20px;
+  }
+
+  &-prev:hover,
+  &-next:hover {
+    color: black;
+    background: white;
+  }
+}
