@@ -9,10 +9,6 @@
   width: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -20,8 +16,7 @@ a {
 }
 
 .main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("/img/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/img/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg");
   background-size: cover;
   height: 700px;
   color: white;
